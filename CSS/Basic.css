@@ -1,0 +1,63 @@
+/*#a{
+    color: aqua;
+    background-color: blue;
+}
+
+#b{
+    color: antiquewhite;
+    background-color: rgb(34, 253, 205);
+}
+div{
+    color:brown;
+    background-color:rgb(0, 0, 0);
+    width:25%;
+    height:100px;
+
+}
+#c{
+    color:aqua;
+    background-color: blue;
+}
+.a{
+    color:blueviolet;
+    background-color: cadetblue;
+}
+#v{
+    color:brown;
+    background-color: blue;
+}
+p,#a,.b{
+    background-color:aqua;
+    background:aqua;
+}
+p{
+    color:yellow;
+}
+#a{
+    color:green;
+}
+.b{
+    color:red;
+}*/
+.a{
+    color:blue;
+}
+.b{
+    color:red;
+}
+#a{
+    color:yellow;
+}
+#b{
+    color:green;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-size:100px;
+}
+input{
+    width:500px;
+    height:40px;
+}

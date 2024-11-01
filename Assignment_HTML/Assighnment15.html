@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Email : </label>
+    <input type="text"><br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small style="color: red;"></small>
+    <br>
+
+    <hr>
+    <button>SUBMIT</button>
+</body>
+<script>
+
+    let x=document.querySelector('button')
+    let g=document.querySelector('small')
+    x.onclick=function f1()
+    {
+        let v=document.querySelector('input').value
+        if(v=='')
+        {
+            
+            g.innerHTML="*Plese enter the mail ID"
+            document.querySelector('input').style.border="2px solid red"
+            
+        }
+        else
+        {   
+            g.innerHTML=''
+            window.alert("Submit is succuss")
+        }
+        
+    }
+</script>
+</html>

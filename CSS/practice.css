@@ -1,0 +1,17 @@
+.a{
+    color:red;
+    background-color: blue;
+}
+#a,#b{
+    background-color: pink;
+}
+#a{
+    color:yellow;
+
+}
+#b{
+    color:red;
+}
+*{
+    background-color: aqua;
+}

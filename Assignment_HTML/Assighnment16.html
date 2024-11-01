@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <label for="">Width</label><input type="range" class="a" oninput="f1()" min="0" max="1000">
+    <label for="">Height</label><input type="range" class="b" oninput="f2()" min="0" max="1000">
+    <label for="">Radus</label><input type="range" class="c" oninput="f3()" min="0" max="2000">
+    <label for="">color</label><input type="color" class="d" oninput="f4()" min="0" max="1000">
+</body>
+<script>
+    let x=document.querySelector('div')
+    x.style.cssText='width:100px; height:100px; background-color:aqua'
+    
+    function f1()
+    {
+        let g=document.querySelector('.a')
+        let y=g.value
+        document.querySelector('div').style.width=y+'px'
+    }
+    function f2()
+    {
+        let g=document.querySelector('.b')
+        let y=g.value
+        document.querySelector('div').style.height=y+'px'
+    }
+    function f3()
+    {
+        let g=document.querySelector('.c')
+        let y=g.value
+        document.querySelector('div').style.borderRadius=y+'px'
+    }
+    function f4()
+    {
+        let g=document.querySelector('.d')
+        let y=g.value
+        document.querySelector('div').style.backgroundColor=y
+    }
+
+</script>
+</html>
